@@ -1,0 +1,17 @@
+Question1
+Input: 
+object of student names and student scores
+
+Process: 
+1. Create a list of the objects that are students
+2. Put names and scores as keys to the students' list of objects
+3. Initialize an empty object
+4. Initialize an empty list
+5. Find the minimum score for a student in the students' list of objects and put it in the list as an object with key of Minimum
+6. Find the maximum score for a student in the students' list of objects and put it in the list as an object with key of Maximum
+7. Find the average score and put it in the list as an object with the key of Average
+8. Put the name as a key and the list values as the value of the key in the empty object
+9. Repeat steps 5, 6, 7, and 8 for every student in the students' list of objects
+
+Output:
+Object of students with the minimum, maximum and average value

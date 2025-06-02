@@ -1,0 +1,14 @@
+Input: 
+    -List of objects of eligible voters with citizen ID and vote status
+    -An object vote containing citizen ID and the candidate ID
+    -List of objects for the candidate with the candidate ID and count
+Process:
+1. If voter is not in the list by citizen_id, report fraud
+2. If voter's vote_status is True, report icitizen has already voted
+3. If  candidate ID is not found in list of object candidates, invalid  candidate
+4. If all checks pass,
+    a. Increment the candidate's count by 1
+    b. Set voter's vote_status to True
+  
+Output:
+    -Updated list of objects for the candidate with their candidate ID and vote count

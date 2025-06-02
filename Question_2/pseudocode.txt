@@ -1,0 +1,26 @@
+Input:
+List of student objects containing id, special need status, location
+List of bus objects containing id, special need access capacity, capacity, location and taken seats
+School location
+Process:
+1. Initialize an empty object to store the student and their assigned bus id
+2. For student in students list extract buses that have free seats
+3. If student gas special needs extract buses that has special neeed access
+4. Find the nearest bus stop by calculating the difference in location
+5. Update the special need access capacity
+6. Update the taken seats in bus
+7. If student doesn't need special access, find the neares bus stop and assign student
+8. Update the taken seats in bus
+9. Calculate the distance between the bus stop and the school.
+10. If trafic is high, medium or low specify estimated speed for each case
+11. find the time that the bust takes to get to school by dividing distance by estimated speed
+
+output: 
+ list of student objects with their respective assigned buses 
+
+
+
+
+
+
+
