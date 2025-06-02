@@ -2,7 +2,7 @@
 This repository contains live coding practice questions, thought processes, and answers in Kotlin, JavaScript, and Python. 
 
 ## Question-1
-### Classroom Score Tracker:
+### Student statistics 
 Implement a system that can process a series of student scores and provide a summary statistics including the average score, the highest score, and the lowest score. Determine how you might want to organize and access these scores.
 
 
